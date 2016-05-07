@@ -10,4 +10,12 @@ git reset --hard origin/master
 make clean
 make
 
+cd ~/openpixelcontrol
+
+git fetch --all
+git reset --hard origin/master
+
+make clean
+make
+
 cd ~/scripts
