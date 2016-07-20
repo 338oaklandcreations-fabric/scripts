@@ -1,7 +1,7 @@
 #!/bin/sh
 
 process=tcl_server
-makerun="./openpixelcontrol/bin/tcl_server"  
+makerun="./openpixelcontrol/bin/tcl_server -g 2.0"  
 
 if ps ax | grep -v grep | grep $process > /dev/null         
 then                 
