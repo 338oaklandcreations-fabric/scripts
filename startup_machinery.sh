@@ -7,7 +7,7 @@ if ps ax | grep -v grep | grep $process > /dev/null
 then                 
   exit         
 else         
-  dir_timestamp=~/logs/`date +%Y-%m-%d_%H-%M-%S`_webserver
+  dir_timestamp=~/logs/`date +%Y-%m-%d_%H-%M-%S`_machinery
   mkdir $dir_timestamp
   mv ~/logs/machinery*.log $dir_timestamp
 
