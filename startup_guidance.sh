@@ -11,5 +11,8 @@ else
   mkdir $dir_timestamp
   mv ~/logs/guidance*.log $dir_timestamp
 
+  sleep 20
+
+  export FABRIC_USER_PASSWORDS=mauricio,mauricio:marin,marvin:aaron,aaron:floss,floss:leo,leo
   $makerun &
 fi 
